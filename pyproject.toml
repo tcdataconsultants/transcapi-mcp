@@ -15,6 +15,7 @@ keywords = ["mcp", "transport", "bus", "rail", "uk", "great britain", "transcapi
 [project.urls]
 Homepage = "https://www.transcapi.com"
 Documentation = "https://www.transcapi.com/docs"
+Repository = "https://github.com/tcdataconsultants/transcapi-mcp"
 
 [project.scripts]
 transcapi-mcp = "transcapi_mcp.server:main"
