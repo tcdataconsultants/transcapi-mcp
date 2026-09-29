@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "transcapi-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server for TransCAPI: live bus and rail departures, vehicles, disruptions and journey planning for Great Britain"
 readme = "README.md"
 requires-python = ">=3.10"

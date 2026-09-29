@@ -1,5 +1,7 @@
 # TransCAPI MCP server
 
+<!-- mcp-name: com.transcapi/mcp -->
+
 Lets AI assistants such as Claude answer questions about public transport in
 Great Britain with live data: *"When's the next train from Leeds to York, and
 is it on time?"*, *"Where's the 52 bus?"*, *"Is anything disrupting my route

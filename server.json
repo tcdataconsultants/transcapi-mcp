@@ -1,0 +1,37 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.transcapi/mcp",
+  "title": "TransCAPI",
+  "description": "Live bus and rail departures, bus positions, disruptions and journey planning for Great Britain.",
+  "websiteUrl": "https://www.transcapi.com",
+  "repository": {
+    "url": "https://github.com/tcdataconsultants/transcapi-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "transcapi-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "TRANSCAPI_API_KEY",
+          "description": "Your TransCAPI API key. Free at https://www.transcapi.com/signup",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "TRANSCAPI_BASE_URL",
+          "description": "API address, if not https://api.transcapi.com",
+          "isRequired": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
