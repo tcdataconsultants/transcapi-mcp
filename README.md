@@ -21,7 +21,7 @@ with live running, live bus positions, disruptions and journey planning.
      "mcpServers": {
        "transcapi": {
          "command": "uvx",
-         "args": ["--from", "git+https://github.com/tcdataconsultants/transcapi-mcp", "transcapi-mcp"],
+         "args": ["transcapi-mcp"],
          "env": { "TRANSCAPI_API_KEY": "your-key" }
        }
      }
@@ -31,14 +31,11 @@ with live running, live bus positions, disruptions and journey planning.
    For Claude Code:
 
    ```bash
-   claude mcp add transcapi --env TRANSCAPI_API_KEY=your-key -- \
-     uvx --from git+https://github.com/tcdataconsultants/transcapi-mcp transcapi-mcp
+   claude mcp add transcapi --env TRANSCAPI_API_KEY=your-key -- uvx transcapi-mcp
    ```
 
-   Or install it yourself with
-   `pip install git+https://github.com/tcdataconsultants/transcapi-mcp` and run
-   `transcapi-mcp`. (A PyPI release, installable as plain `transcapi-mcp`, is
-   coming.)
+   Or install it yourself with `pip install transcapi-mcp` and run
+   `transcapi-mcp`.
 
 ## Tools
 
